@@ -77,9 +77,10 @@ a:hover {
 }
 
 .list-package {
-  width: 80%;
   margin: auto;
   overflow: auto;
+  height: 400px;
+  padding-right:10px;
 }
 
 .package {
@@ -87,4 +88,8 @@ a:hover {
   justify-content: space-between;
   padding: 5px 0px;
   border-bottom: 1px solid #ccc;
+}
+
+.detail {
+  width: 80%;
 }
